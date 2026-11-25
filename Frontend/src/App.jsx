@@ -24,17 +24,19 @@ function App() {
           <h2 className='python'>JAVA API = {java_api}</h2>
 
           <NavBar>
-            <Routes>
 
-              <Route path="/" element={<Home />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
-              <Route path="/favourites" element={<Favourites />} />
-
-
-            </Routes>
 
           </NavBar>
+
+          <Routes>
+
+            <Route path="/" element={<Home />} />
+            <Route path="/Login" element={<Login />} />
+            <Route path="/Register" element={<Register />} />
+            <Route path="/Favourites" element={<Favourites />} />
+
+
+          </Routes>
 
         </div>
 
